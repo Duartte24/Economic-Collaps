@@ -1,0 +1,80 @@
+body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #54de76;
+      color: #fff;
+}
+header {
+      background: #2dbd4c;
+      padding: 20px;
+      text-align: center;
+}
+header h1 {
+      margin: 0;
+      font-size: 2.5em;
+}
+nav {
+      margin-top: 10px;
+}
+nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+}
+section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+}
+.imagem {
+      background: url('banner.jpg') no-repeat center center/cover;
+      height: 60vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+}
+.imagem h2 {
+      font-size: 2.5em;
+      background: rgba(115, 230, 123, 0.6);
+      padding: 20px;
+      border-radius: 10px;
+}
+.btn {
+      background-color: #ff4c4c;
+      color: #fff;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 1.2em;
+      transition: background 0.3s;
+}
+.btn:hover {
+      background-color: #f70887;
+}
+    footer {
+      background: #478427;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #999;
+}
+.gallery img {
+      width: 100%;
+      max-width: 300px;
+      margin: 10px;
+      border-radius: 10px;
+}
+.texto_superior{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: #77d077;
+}
+.Cleiton_Rasta{
+  background-color: #2eb54b96;
+  margin: 5px;
+  border-radius: 25px;
+}
